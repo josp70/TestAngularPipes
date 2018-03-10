@@ -4,13 +4,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { NgMathPipesModule } from 'angular-pipes';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgMathPipesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
